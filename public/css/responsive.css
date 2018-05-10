@@ -1,0 +1,115 @@
+/*	Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .filter-available-tag ul a {
+    padding: 8px 0px;
+    font-size: 12px;
+}
+.filter-available-tag ul li {
+    padding-right: 5px;
+}
+.filter-available-range h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.filter-available-range button[type="button"] {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.filter-result .btn {
+    padding: 19px 10px;
+}
+.select-menu-main .select-menu a {
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.cs-select > span {
+    padding: 6px 15px 6px;
+    font-size: 14px;
+}
+.table .table-text a {
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-size: 12px;
+}
+.select-menu-group {
+    width: calc( 180px );
+}
+.select-menu-main {
+    width: calc( 100% - 180px );
+}
+.select-menu-main .select-menu a {
+    padding: 10px 0px;
+    font-size: 12px;
+}
+.filter-available-range input[type="text"] {
+    padding: 5px 5px;
+}
+.header-url-btn .btn {
+    padding: 15px 15px;
+    font-size: 14px;
+}
+}
+
+
+/*	Mobile Layout: 420px.  */
+
+@media only screen and (max-width: 767px) {
+.filter-available-tag ul a {
+    padding: 8px 0px;
+    font-size: 12px;
+}
+.filter-available-tag ul li {
+    padding-right: 5px;
+}
+.filter-available-range h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.filter-available-range button[type="button"] {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.filter-result .btn {
+    padding: 19px 10px;
+}
+.select-menu-main .select-menu a {
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.cs-select > span {
+    padding: 6px 15px 6px;
+    font-size: 14px;
+}
+.table .table-text a {
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-size: 12px;
+}
+.select-menu-group {
+    width: 100%;
+	margin-bottom:20px;
+	padding-right:0px;
+}
+.select-menu-main {
+    width: 100%;
+}
+.select-menu-main .select-menu a {
+    padding: 10px 0px;
+    font-size: 12px;
+}
+.filter-available-range input[type="text"] {
+    padding: 5px 5px;
+}
+.header-url-btn .btn {
+    padding: 15px 15px;
+    font-size: 14px;
+}
+.filter-available {
+    width: 100%;
+	margin-bottom:10px;
+}
+.filter-result {
+    padding:0px;
+}
+}
